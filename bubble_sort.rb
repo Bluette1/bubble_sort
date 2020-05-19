@@ -1,16 +1,13 @@
-# - for each element, compare it to the element on the right and swap if the element to the right is smaller
-#
-
+# This will sort the elements of an array of integers using Bubble Sort.
+# The array is traversed while comparing adjacent elements and swapping
+# their positions where necessary. After each traversal we decrement the
+# position of the last index.
 def bubblesort(array)
-  p array
-
   size = array.length - 2
 
   while size >= 0
-    # Create the for loop
-    (0..size).each do |i|
-      p i
 
+    (0..size).each do |i|
       next unless array[i] > array[i + 1]
 
       # swap the values
@@ -27,4 +24,5 @@ def bubblesort(array)
 end
 
 array = [4, 3, 78, 2, 0, 2]
-p bubblesort array
+
+print (bubblesort array), "\n"
