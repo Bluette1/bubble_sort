@@ -22,6 +22,3 @@ def bubblesort(array)
 
   array
 end
-
-array = [4, 3, 78, 2, 0, 2]
-
