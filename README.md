@@ -2,8 +2,9 @@
 
 This is the first project of the Main Ruby curriculum at [Microverse](https:www.microverse.org/) - @microverseinc.
 
-# bubble_sort ([The Odin Project](https://www.theodinproject.com/courses/ruby-programming/lessons/bubble-sort)
+# bubble_sort ([The Odin Project](https://www.theodinproject.com/courses/ruby-programming/lessons/bubble-sort))
 
+![Bubble Sort Animation](Bubble-sort-example.gif)
 
 ## Built With
 
@@ -18,7 +19,12 @@ This project is mainly about
 -  Learning ruby syntax
 -  Using blocks, procs, and the `yield` command in ruby
 
-This web page is built using ruby
+## Development
+
+* Run script
+```
+ruby bubble_sort.rb
+```
 
 ## Live Demo
 
